@@ -1,0 +1,120 @@
+
+
+h1 {
+	text-align: center;
+	color: white;
+	background-color: #003471;
+	background-size: cover 20px;
+	font-size: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+	text-align: right;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	word-spacing: 20px;
+	font-size: 30px;
+	padding-right: 40px;
+}
+
+h3 {
+	padding-top: 20px;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 200px;
+}
+
+h4 {
+	text-align: center;
+	color: white;
+	background-color: #003471;
+	background-size: cover 20px;
+	font-size: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+	text-decoration: none;
+		color: inherit;
+}
+
+a.portfolioClass:hover 
+{
+color: gray;
+}
+
+
+
+
+/* Solid border */
+hr.solid {
+	border-top: 3px solid #bbb;
+	
+}
+
+br {
+	line-height: 22px;
+	display: block;
+	margin: 6px 0;
+}
+
+.center{
+
+}
+
+body {
+	background-color: lightgray;
+	font-size: 40px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+p#intro {
+	padding-top: 60px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+p#TitlePorfolio {
+	font-size: 45px;
+	text-align: center;
+}
+
+p#Capstone {
+	text-align: left;
+	padding-top: 60px;
+	padding-left: 100px;
+
+}
+
+p#Godor {
+	text-align: left;
+	padding-top: 60px;
+	padding-left: 300px;
+
+}
+
+p#Gordo {
+	text-align: left;
+	padding-top: 60px;
+	padding-left: 100px;
+}
+
+
+ul#CapstoneList {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	width: 46%;
+	padding-right: 300px;
+}
+
+p.CapstoneImage {
+	display: inline-block;
+	vertical-align: top;
+	width: 46%;
+}

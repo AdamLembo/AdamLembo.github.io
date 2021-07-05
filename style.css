@@ -82,39 +82,53 @@ p#intro {
 p#TitlePorfolio {
 	font-size: 45px;
 	text-align: center;
+	padding-bottom: 100px;
+}
+
+p#GameTitles {
+	text-align: center;
+	padding-top: 60px;
 }
 
 p#Capstone {
-	text-align: left;
+	text-align: center;
 	padding-top: 60px;
-	padding-left: 100px;
-
+	padding-bottom: 60px;
 }
 
 p#Godor {
-	text-align: left;
+	text-align: center;
 	padding-top: 60px;
-	padding-left: 300px;
-
+	padding-bottom: 60px;
 }
 
 p#Gordo {
-	text-align: left;
+	text-align: center;
 	padding-top: 60px;
-	padding-left: 100px;
+	padding-bottom: 60px;
 }
 
 
 ul#CapstoneList {
-	display: inline-block;
-	vertical-align: top;
-	float: right;
-	width: 46%;
-	padding-right: 300px;
+
+	display: table;
+	margin: 0 auto;
+	text-wrap: none;
+	padding-left: 100px;
 }
 
 p.CapstoneImage {
-	display: inline-block;
-	vertical-align: top;
-	width: 46%;
+
+	text-align: center;
 }
+
+p.GodorImage {
+
+	text-align: center;
+}
+
+p.GordoImage {
+
+	text-align: center;
+}
+

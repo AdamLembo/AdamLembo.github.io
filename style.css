@@ -69,3 +69,9 @@ h4 {
 p {
 	font-size: 1em;
 }
+
+.ToTop {
+	color: gray;
+	text-decoration: none;
+	text-align: center;
+}

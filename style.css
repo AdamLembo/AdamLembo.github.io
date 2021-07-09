@@ -1,3 +1,36 @@
+body {
+	background-color: lightgray;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.navcontainer {
+	background-color: #d3d3d3;
+
+}
+
+.navbar-navbar {
+
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-bottom: 50px;
+
+}
+
+.nav justify-content-end {}
+
+
+
+.nav-link {
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+
+}
+
+.nav-link:hover {
+	color: gray;
+}
 
 
 h1 {
@@ -5,130 +38,34 @@ h1 {
 	color: white;
 	background-color: #003471;
 	background-size: cover 20px;
-	font-size: 50px;
+	font-size: 3em;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h2 {
-	text-align: right;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	word-spacing: 20px;
-	font-size: 30px;
-	padding-right: 40px;
-}
-
-h3 {
-	padding-top: 20px;
-	width: 100%;
-	text-align: center;
-	padding-bottom: 200px;
-}
-
+h3,
 h4 {
+
+	text-align: center;
+
+}
+
+
+
+.about,
+.portfolio {
 	text-align: center;
 	color: white;
 	background-color: #003471;
 	background-size: cover 20px;
-	font-size: 50px;
+	font-size: 2.5em;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin-bottom: 20px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-a {
-	text-decoration: none;
-		color: inherit;
+p {
+	font-size: 1em;
 }
-
-a.portfolioClass:hover 
-{
-color: gray;
-}
-
-
-
-
-/* Solid border */
-hr.solid {
-	border-top: 3px solid #bbb;
-	
-}
-
-br {
-	line-height: 22px;
-	display: block;
-	margin: 6px 0;
-}
-
-.center{
-
-}
-
-body {
-	background-color: lightgray;
-	font-size: 40px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-}
-
-p#intro {
-	padding-top: 60px;
-	padding-bottom: 100px;
-	text-align: center;
-}
-
-p#TitlePorfolio {
-	font-size: 45px;
-	text-align: center;
-	padding-bottom: 100px;
-}
-
-p#GameTitles {
-	text-align: center;
-	padding-top: 60px;
-}
-
-p#Capstone {
-	text-align: center;
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-
-p#Godor {
-	text-align: center;
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-
-p#Gordo {
-	text-align: center;
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-
-
-ul#CapstoneList {
-
-	display: table;
-	margin: 0 auto;
-	text-wrap: none;
-	padding-left: 100px;
-}
-
-p.CapstoneImage {
-
-	text-align: center;
-}
-
-p.GodorImage {
-
-	text-align: center;
-}
-
-p.GordoImage {
-
-	text-align: center;
-}
-

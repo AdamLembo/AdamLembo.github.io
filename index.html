@@ -1,123 +1,294 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Adam Lembo Website</title>
 </head>
+
 <body>
-	<h2>
-		<a href="#PorfolioJump" class="portfolioClass">Portfolio</a>
-		<a href="#AboutJump" class="portfolioClass">About</a>
-		Github
-		Resume
+  <div class="container-fluid">
+    <!-- Navigation -->
+    <nav class="navbar-navbar">
+
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#PortfolioJump">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#AboutJump">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Github</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Adam_Lembo_Resume_CER.pdf" target="_blank">Resume</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- end navigation -->
+    <!-- intro -->
+
+
+    <div class=" container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="mb-5">Adam Lembo <br>
+            AI & Gameplay Programmer</h1>
+        </div>
+      </div>
+      <!-- <a href="#TopJump></a>  -->
+      <!-- Responsive image -->
+      <div class=" row">
+        <div class="col-12">
+          <img class="img-fluid center-block d-block mx-auto " src="logostuff.png" alt="Logo" />
+        </div>
+      </div>
+      <h4 class="text-center mt-5 mb-5"> Welcome to my website! My name is Adam Lembo and I am an AI & Gameplay
+        Programmer!. </h4>
+    </div>
+    <!-- end intro -->
+    <!-- portfolio -->
+    <div class="container-fluid">
+
+      <h4 class="portfolio">
+
+        <a name="PortfolioJump">Portfolio</a>
+
+      </h4>
+
+      <h2 class="text-center mb-5"> School Projects</h2>
+
+      <!-- Project 1 Sammy's Slumber -->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <img src="images/Sammy's SlumberTitleScene.jpg" class="card-img-top" alt="..." />
+            <!-- borders for cards -->
+
+            <div class="card-body">
+              <!-- <h4 class="card-title">Sammy's Slumber</h4> -->
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-light mb-4">
+
+              <div class="card-body">
+                <h4 class="card-title">Sammy's Slumber</h4>
+                <p class="card-text">
+                  <p> Created dynamic AI that when alerted will take cover behind the
+                    closest object.</p>
+
+
+                  <p> AI Fire at the player after detecting them and running to cover.</p>
+
+                  <p> There is a percent chance they will throw grenades at the player when
+                    done firing.</p>
+
+                  <p> If a player gets close they will shift to a new position
+                    away from the player in order to preserve life.</p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 Gordor -->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <img src="images/Godor.jpg" class="card-img-top" class="card-img-top" alt="..." />
+            <!-- borders for cards -->
+
+            <div class="card-body">
+              <!-- <h4 class="card-title">Gordor</h4> -->
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card bg-light mb-4">
+              <!-- <h3 class="card-title">SS Text</h3> -->
+              <div class="card-body">
+                <h4 class="card-title">Gordor</h4>
+                <p class="card-text">
+                  <p>Created StateMachine AI that would react to the player.</p>
+
+                  <p>AI dynamically generated patrol routes and would assign
+                    new ones when the player was out of sight.</p>
+
+                  <p>Two StateMachine bosses that had special abilities which required the player to choreograph
+                    their attacks.</p>
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 Going on Dangerous-->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <img src="images/GordoTitleScreen.jpg" class="card-img-top" alt="..." />
+            <!-- borders for cards -->
+
+            <div class="card-body">
+              <!-- <h4 class="card-title">Going on Really Dangerous Outings</h4> -->
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card bg-light mb-4">
+
+              <div class="card-body">
+                <h4 class="card-title">Going on Really Dangerous Outings</h4>
+                <p class="card-text">
+                  <p>AI Programmer for a 2D game on a team of five.</p>
+
+                  <p> Created enviromental hazards for a side scrolling adventure game.</p>
+
+                  <p> Developed AI that generate patrol routes and would chase the player when in range of their vision.
+                  </p>
+
+                  <p> Created ranged AI that would fire projectiles at the player while in their field of vision.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Projects -->
+
+      <h4 class="about">
+
+        <a name="AboutJump">About</a>
+
+      </h4>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <!-- borders for cards -->
+          <div class="card text-black bg-light border-secondary mb-3 style=" max-width: 18rem;">
+            <div class="card-body">
+              <h3 class="card-title text-center">Biography</h3>
+              <p class="card-text">
+                <p>I'm a programmer who loves creating games and simulations and watching them develop into fulling
+                  functioning
+                  programs!</p>
+
+                <p> My interests are specifically in AI and enemy design in games as there are so many complex and
+                  cool
+                  things you can make the computer do with your code!</p>
+
+                <p> During my studies I have enjoyed learning how to create games as well as functioning on a team!
+                  I
+                  have
+                  expanded
+                  my knowledge outside of the classroom, as I find it interesting to learn more about this field!
+
+
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <!-- color cards -->
+          <div class="card text-black bg-light border-secondary mb-3" style="max-width:18 rem;">
+            <div class="card-body">
+              <h3 class="card-title text-center">Technical Skills</h3>
+              <!-- <li class="card-text"> -->
+              <ul class="list-inline text-center">
+                <li class="list-inline-item">C#</li>
+                <li class="list-inline-item">Unity</li>
+                <li class="list-inline-item">Gameplay</li>
+                <li class="list-inline-item">C++</li>
+              </ul>
+              <ul class="list-inline text-center">
+                <li class="list-inline-item">Unreal</li>
+                <li class="list-inline-item">AI</li>
+                <li class="list-inline-item">Javascript</li>
+                <li class="list-inline-item">Phaser</li>
+              </ul>
+
+              <ul class="list-inline text-center">
+                <li class="list-inline-item">User Interface</li>
+                <li class="list-inline-item">HTML</li>
+              </ul>
+
+
+              <h3>Professional Qualifications</h3>
+              <p class="text-center">A.A.S. in Simulation and Game Development</p>
+              <h3>Certificates in Simulation and Game Development</h3>
+              <ul class="list-unstyled text-center">
+                <li>Fundementals I</li>
+                <li>Fundementals II</li>
+                <li>Quality Assurance</li>
+                <li>Programming</li>
+                <li>Business</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <a class="nav-link" href="https://twitter.com/Alemb0" target="_blank">Twitter</a>
+          <a class="nav-link" href="https://www.linkedin.com/in/adamlembo/" target="_blank">LinkedIn</a>
+          <a class="nav-link" href="mailto:alembo@runbox.com" target="_blank">Email</a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4 text-center">
+                  <a name="TopJump">Back to Top</a>
+
+
+                </h6>
+
+              </div>
+              <!-- Grid column -->
 
 
 
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
 
-
-	</h2>
-	<h1>
-		<br />
-		<br />
-		Adam Lembo <br />
-		AI & Gameplay Programmer
-		<br />
-		<br />
-	</h1>
-
-	<h3>
-
-		<img src="logostuff.png" alt="Logo">
-	</h3>
-
-	<p id="intro">Welcome to my website! My name is Adam Lembo and I am a AI & Gameplay Programmer!. </p>
-
-
-	<h4>
-
-		<a name="PorfolioJump">Portfolio</a>
-
-	</h4>
-
-
-	<p id="TitlePorfolio">School Projects.</p>
-	<p id="GameTitles">Battlin' Bunny: You Snooze You Lose </p>
-	<p id="Capstone">
-
-		<img src="logostuff.png" alt="TempPicture" class="CapstoneImage">
-		<ul id="CapstoneList">
-			<li>
-				Created dynamic AI that when alerted will take cover behind the
-				closest object.
-			</li>
-			<li>
-				AI Fire at the player after detecting them and running to cover.
-			</li>
-			<li>
-				There is a percent chance they will throw grenades at the player when
-				done firing.
-			</li>
-			<li>
-				If a player gets close they will shift to a new position
-				away from the player in order to preserve life.
-			</li>
-		</ul>
-
-
-	</p>
-
-	<p id="GameTitles">Godor</p>
-	<p id="Godor">
-
-		<img src="logostuff.png" alt="TempPicture" class="GodorImage">
-		<ul id="CapstoneList">
-			<li>
-				Created StateMachine AI that would react to the player.
-
-			</li>
-			<li>
-				AI dynamically generated patrol routes and would assign
-				new ones when the player was out of sight.
-			</li>
-			<li>
-				Two StateMachine bosses that had special abilities which required the player to choreograph
-				their attacks.
-			</li>
-		</ul>
-
-	</p>
-
-	<p id="GameTitles">Going On Really Dangerous Outings</p>
-	<p id="Gordo">
-
-		<img src="logostuff.png" alt="TempPicture" class="GordoImage">
-		<ul id="CapstoneList">
-			<li>
-				AI Programmer for a 2D game on a team of five.
-			</li>
-			<li>
-				Created enviromental hazards for a side scrolling adventure game.
-			</li>
-			<li>
-				Developed AI that generate patrol routes and would chase the player when in range of their vision.
-			</li>
-			<li>
-				Created ranged AI that would fire projectiles at the player while in their field of vision.
-			</li>
-
-		</ul>
-
-	</p>
-
-	<h4>
-
-		<a name="AboutJump">About</a>
-
-	</h4>
-
-
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          ALembo
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+    <!-- Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
 </body>
 
 
 
-</html> 
+</html>

@@ -7,14 +7,13 @@ body {
 
 .navcontainer {
 	background-color: #d3d3d3;
-
+	background-color: lightgray;
 }
 
 .navbar-navbar {
-
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	padding-bottom: 50px;
-
+	background-color: lightgray;
 }
 
 .nav justify-content-end {}
